@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 SmartCatalog AI – AI Powered Commerce Assistant
 
-## Getting Started
+## 📌 Overview
+SmartCatalog AI is an AI-powered ecommerce assistant that automates product catalog creation and customer support using artificial intelligence.
 
-First, run the development server:
+It reduces manual catalog effort, improves SEO tagging, generates sustainability filters, and provides intelligent customer support using a chatbot connected with real database logic.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This project demonstrates a production-ready AI + Full Stack system with clean architecture and structured outputs.
+
+---
+
+# ✨ Features
+
+## 🧠 AI Product Catalog Generator
+- Auto product category detection  
+- Subcategory suggestion  
+- SEO tag generation  
+- Sustainability tag generation  
+- Structured JSON AI output  
+- Stores results in MongoDB  
+
+## 🤖 AI Customer Support Chatbot
+- Order status tracking from database  
+- Refund & return escalation detection  
+- Context-aware AI responses  
+- WhatsApp-style chatbot simulation  
+- Conversation logging  
+
+## 🗃 Logging System
+- AI prompt & response logging  
+- Chat conversation logging  
+- Stored in MongoDB  
+
+---
+
+# 🏗 Architecture
+
+This project follows clean and scalable architecture:
+
+Frontend (Next.js UI)  
+→ Product generator UI  
+→ AI chatbot interface  
+
+Backend API Layer  
+→ Business logic handling  
+→ Input validation  
+→ AI routing  
+
+AI Service Layer  
+→ Gemini AI integration  
+→ Prompt engineering  
+→ Structured JSON output  
+
+Database Layer (MongoDB)  
+→ Product storage  
+→ Orders database  
+→ Chat logs  
+→ AI logs  
+
+This separation ensures production-ready scalability and maintainability.
+
+---
+
+# 🛠 Tech Stack
+
+**Frontend**
+- Next.js (App Router)
+- Tailwind CSS
+
+**Backend**
+- Next.js API Routes
+- Node.js
+
+**Database**
+- MongoDB Atlas
+
+**AI**
+- Google Gemini API
+
+**Deployment**
+- Vercel
+
+---
+
+# 🌐 Live Demo
+
+
+
+---
+
+# 🧪 Demo Test Cases
+
+## Product Generator
+Try entering:
+- Bamboo toothbrush  
+- Steel water bottle  
+- Eco packaging  
+
+## Chatbot
+Try messages:
+- where is my order ORD123
+- i want refund
+- hello
+
+
+---
+
+# ⚙️ Local Setup
+
+## 1. Clone repository
+```
+git clone <your-repo-link>
+cd smart-catalog-ai
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 3. Add environment variables (.env.local)
+```
+MONGO_URI=your_mongodb_uri
+GEMINI_API_KEY=your_gemini_key
+```
+## 4. Run locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🎯 Key Highlights
+- AI + Full Stack production project  
+- Structured JSON AI outputs  
+- Real database integration  
+- Logging system  
+- Clean architecture  
+- Deployable SaaS-style UI  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 📹 Demo Video
+(Add YouTube demo link here)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 👨‍💻 Author
+Rohit  
+Full Stack Developer | AI Integration Enthusiast
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

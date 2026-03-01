@@ -83,8 +83,7 @@ This separation ensures production-ready scalability and maintainability.
 ---
 
 # 🌐 Live Demo
-
-
+https://smart-catalog-ai-ai-powered-commerc.vercel.app/
 
 ---
 
@@ -109,7 +108,7 @@ Try messages:
 
 ## 1. Clone repository
 ```
-git clone <your-repo-link>
+git clone https://github.com/RohitPanwar46/SmartCatalog-AI-AI-Powered-Commerce-Assistant.git
 cd smart-catalog-ai
 ```
 
@@ -135,7 +134,7 @@ GEMINI_API_KEY=your_gemini_key
 ---
 
 # 📹 Demo Video
-(Add YouTube demo link here)
+[YouTube demo link](https://youtu.be/RxRmGqRR1ns?si=w-lGtDvyTNPThExP)
 
 ---
 
